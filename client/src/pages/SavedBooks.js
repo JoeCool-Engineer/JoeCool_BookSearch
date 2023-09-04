@@ -7,11 +7,11 @@ import {
   Col
 } from 'react-bootstrap';
 
+import Auth from '../utils/auth';
 import { REMOVE_BOOK } from '../utils/mutations';
 import { GET_ME } from '../utils/queries'
 
 import { useMutation, useQuery } from '@apollo/client';
-import Auth from '../utils/auth';
 import { removeBookId } from '../utils/localStorage';
 
 const SavedBooks = () => {
